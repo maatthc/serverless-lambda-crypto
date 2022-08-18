@@ -21,3 +21,7 @@ yarn sls invoke local -c serverless.yml \
 ```bash
 yarn sls deploy
 ```
+
+## Results
+
+![Running locally](results/local.png?raw=true "Running locally")
