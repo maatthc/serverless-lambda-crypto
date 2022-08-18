@@ -1,4 +1,4 @@
-# CryptoJs Hash Performance test
+# Hash Performance test on AWS Lambda
 __Native Node v16 Crypto__ _versus_ __CryptoJS__
 
 The Hashing Algorithms:
