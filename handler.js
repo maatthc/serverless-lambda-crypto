@@ -29,8 +29,6 @@ const run = (data) => {
         const perfObserver = new PerformanceObserver((list) => {
           console.log(results[counter], list.getEntries()[0].duration)
           counter += 1
-          performance.clearMarks()
-          perfObserver.disconnect()
         })
         perfObserver.observe({ entryTypes: ["function"] })
         results.push(`${engine} : ${algorithm}`)
